@@ -18,7 +18,7 @@ const save = () => {
     const content = document.getElementById("content");
 
     if (text.value.trim() === "") return;
-
+    
     // Create a container for text + see more button
     const container = document.createElement("div");
     container.className = "text-container";
